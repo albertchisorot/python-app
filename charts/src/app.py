@@ -3,7 +3,7 @@ app=Flask(__name__)
 @app.route('/details', methods=['GET'])
 def details():
     return jsonify({
-        "message": "My Flask Application"
+        "message": "My Flask Application hey"
     })
 
 @app.route('/health', methods=['GET'])
